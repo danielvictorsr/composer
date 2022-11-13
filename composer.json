@@ -1,0 +1,26 @@
+{
+    "name": "danielvictorsr/composerestudo",
+    "description": "estudo do composer",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Danielvictorsr\\Composerestudo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daniel Victor",
+            "email": "danielvictor.br@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DanielVictor\\EstudoComposer\\": "src"
+        }
+    },
+
+    "require": {
+        "monolog/monolog": "^2.8"
+    }
+}
